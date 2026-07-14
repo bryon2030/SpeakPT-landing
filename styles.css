@@ -54,7 +54,15 @@ button, input { font: inherit; }
 }
 .is-scrolled .nav { background: rgba(7, 26, 61, .94); box-shadow: 0 15px 42px rgba(2,10,28,.24); }
 .brand { display: inline-flex; align-items: center; gap: 9px; font: 800 20px/1 var(--body); letter-spacing: -.04em; }
-.brand-mark { width: 31px; height: 31px; fill: none; stroke: currentColor; stroke-width: 4; stroke-linecap: round; }
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .nav-links { display: flex; align-items: center; gap: 2px; margin-left: auto; }
 .nav-links a { padding: 11px 13px; color: rgba(255,255,255,.72); font-size: 14px; font-weight: 650; border-radius: 99px; }
 .nav-links a:hover { color: var(--white); background: rgba(255,255,255,.08); }
@@ -268,7 +276,7 @@ footer { padding: 35px 0; color: rgba(255,255,255,.6); background: #04122c; }
   .section { padding: 78px 0; }
   .site-header { padding: 10px 0; }
   .nav { min-height: 58px; padding: 8px 9px 8px 16px; }
-  .brand { font-size: 17px; }.brand-mark { width: 27px; }
+  .brand { font-size: 17px; }.brand-mark { width: 30px; height: 30px; }
   .nav-cta { min-height: 39px; padding: 0 14px; font-size: 12px; }
   .hero { padding-top: 118px; }
   .hero h1 { font-size: clamp(48px, 14vw, 65px); }
