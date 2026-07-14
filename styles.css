@@ -55,8 +55,8 @@ button, input { font: inherit; }
 .is-scrolled .nav { background: rgba(7, 26, 61, .94); box-shadow: 0 15px 42px rgba(2,10,28,.24); }
 .brand { display: inline-flex; align-items: center; gap: 9px; font: 800 20px/1 var(--body); letter-spacing: -.04em; }
 .brand-mark {
-  width: 34px;
-  height: 34px;
+  width: 46px;
+  height: 30px;
   fill: none;
   stroke: currentColor;
   stroke-width: 2.7;
@@ -138,7 +138,7 @@ h2 em { color: var(--blue); font-style: normal; }
   color: var(--blue);
   background: linear-gradient(90deg, #faf9ff 86%, rgba(250,249,255,0));
 }
-.screen-brand svg { width: 27px; height: 27px; overflow: visible; }
+.screen-brand svg { width: 36px; height: 24px; overflow: visible; }
 .screen-brand svg path { fill: none; stroke: currentColor; stroke-width: 2.7; stroke-linecap: round; stroke-linejoin: round; }
 .screen-brand svg rect { fill: currentColor; }
 .screen-brand b { white-space: nowrap; font-size: 13px; font-weight: 900; letter-spacing: -.04em; }
@@ -295,7 +295,7 @@ footer { padding: 35px 0; color: rgba(255,255,255,.6); background: #04122c; }
   .section { padding: 78px 0; }
   .site-header { padding: 10px 0; }
   .nav { min-height: 58px; padding: 8px 9px 8px 16px; }
-  .brand { font-size: 17px; }.brand-mark { width: 30px; height: 30px; }
+  .brand { font-size: 17px; }.brand-mark { width: 40px; height: 26px; }
   .nav-cta { min-height: 39px; padding: 0 14px; font-size: 12px; }
   .hero { padding-top: 118px; }
   .hero h1 { font-size: clamp(48px, 14vw, 65px); }
