@@ -2,6 +2,12 @@
 
 This directory contains the static public introduction page for Speak PT.
 
+Public URL:
+
+```text
+https://bryon2030.github.io/SpeakPT-landing/
+```
+
 ## Purpose
 
 - Explain the reaction-muscle positioning before users enter the training app.
