@@ -42,6 +42,7 @@ button, input { font: inherit; }
   color: var(--navy); background: var(--mint); border-radius: 8px; transform: translateY(-150%);
 }
 .skip-link:focus { transform: none; }
+.svg-definitions { position: absolute; width: 0; height: 0; overflow: hidden; }
 
 /* Header */
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; padding: 18px 0; transition: .3s var(--ease); }
@@ -63,7 +64,7 @@ button, input { font: inherit; }
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.brand-mark .brand-plate { fill: currentColor; stroke: none; }
+.brand-mark .brand-bar, .brand-mark .brand-plate { fill: currentColor; stroke: none; }
 .nav-links { display: flex; align-items: center; gap: 2px; margin-left: auto; }
 .nav-links a { padding: 11px 13px; color: rgba(255,255,255,.72); font-size: 14px; font-weight: 650; border-radius: 99px; }
 .nav-links a:hover { color: var(--white); background: rgba(255,255,255,.08); }
